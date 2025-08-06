@@ -18,6 +18,8 @@
     export GOOGLE_APPLICATION_CREDENTIALS=<path to json file>
 ```
 
+**Note: If you are using the json file outside of local environment, ensure the json key file are protected in Secret Manager or Vault. Do not check this file as part of the code or exposed outside.**
+
 ## Using REST Endpoint
 
 1. Using gcloud and ADC to get the access token:
